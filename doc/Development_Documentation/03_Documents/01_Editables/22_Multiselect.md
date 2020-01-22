@@ -65,8 +65,8 @@ Also, it shows the list of chosen elements in the frontend.
     <p>{{ 'This page is linked to' | trans }}
         {% for categoryKey in pimcore_multiselect('categories').getData %}
             <span>
-            {{ categoryKey | trans }}
-        </span>
+                {{ categoryKey | trans }}
+            </span>
         {% endfor %}
         categories
     </p>
